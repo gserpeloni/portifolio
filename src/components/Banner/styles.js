@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-
 export const BannerDiv = styled.div`
-  //height: 30vh;
-`;
+     img{
+         width: 100%;
+         height: 50vh;
+     }
+`; 

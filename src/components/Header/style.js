@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const Navbar = styled.div`
-  //height: 10vh;
-  //background-color: black;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 `;

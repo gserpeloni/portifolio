@@ -6,6 +6,6 @@ export const BodyDiv = styled.div`
   align-items: center;
   justify-items: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 0.8fr));
+  grid-gap: 0px;
 `;
