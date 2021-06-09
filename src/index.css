@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 62.5%;
-  /* background-color: rgba(31, 26, 26, 0.869); */
+  background-color: whitesmoke; 
   /* color: white; */
 }
 

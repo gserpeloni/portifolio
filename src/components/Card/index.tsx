@@ -5,7 +5,11 @@ const Card: React.FC = () => {
 
   return(
 
-    <CardDiv></CardDiv>
+    <CardDiv>
+     <div> Header </div>
+     <div> Img </div>
+     <div> Description </div>
+    </CardDiv>
 
     )
 
