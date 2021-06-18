@@ -1,4 +1,6 @@
 import {AboutDiv} from './styles'
+import Programming from '../Programming';
+
 
 const About: React.FC = () => {
 
@@ -13,7 +15,15 @@ const About: React.FC = () => {
             </div>
 
             <div className="plDiv" >
-                
+                <Programming 
+                    title="Backend"
+                />
+                <Programming
+                    title="Frontend"
+                />
+                <Programming
+                    title='Skills'
+                />
             </div>
         </AboutDiv>
     );

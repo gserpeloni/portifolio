@@ -20,12 +20,12 @@ export const AboutDiv = styled.div`
     }
 
     .plDiv{
-        margin-top: 10vh;
-        background-color: white;
-        opacity: 80%;
-        margin-left:20px;
-        height: 30vh;
-        width: 40vh;
+        display: flex;
+        flex-direction: row;
+        background-color: none;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 80px;
     }
 
     strong{
