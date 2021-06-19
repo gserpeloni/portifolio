@@ -3,8 +3,10 @@ import styled from 'styled-components';
 export const QuemSouEuDiv = styled.div`
   /* background-color:  #78858C; */
   display: grid;
-  grid-template-columns: 0.5fr 1fr;
   margin-bottom: 20px;
+  align-items: left;
+  justify-content: left;
+  margin-left: 200px;
   height: 80vh;
 
   color: white;
