@@ -2,15 +2,18 @@ import styled from 'styled-components';
 
 
 export const Navbar = styled.div`
-  background-color: whitesmoke;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
   float: right;
 
-  font-size: 2rem;
+
+  font-family: 'Press Start 2P', cursive;
   font-weight: bold;
-  color: gray;
+
+  color: white;
+  font-size: 1rem;
+  height:2vh;
 
   div:hover{
     color: goldenrod;
