@@ -8,7 +8,7 @@ export const Navbar = styled.div`
   grid-gap: 30px;
   float: right;
 
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bold;
   color: gray;
 
