@@ -3,26 +3,33 @@ import styled from 'styled-components';
 export const QuemSouEuDiv = styled.div`
   /* background-color:  #78858C; */
   display: grid;
-  margin-bottom: 20px;
+  grid-template-columns: 1fr;
+  
   align-items: left;
   justify-content: left;
-  margin-left: 200px;
+  
   height: 80vh;
-
+  
+  
   color: white;
+  
+  z-index: 0;
+
+  margin-bottom: 20px;
+  margin-left: 20px;
 
   img{
+    padding-top: 150px;
     width: auto;
     height: auto;
     border-radius: 100%;
   };
 
   .imgDiv{
-    margin-top: -60px;
+    background-color: none;
   };
 
   .quemSouEu{
-    padding-top: 80px;
     a {
       text-decoration:none;
     }
