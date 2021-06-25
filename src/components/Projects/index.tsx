@@ -5,7 +5,7 @@ import {ProjectDiv} from './style.js'
 const Projects: React.FC = () => {
 
 const cards = () => {
-  const size = 2;
+  const size = 4;
   const cards = []
   for(let i = 0; i < size; i++){
       cards.push(<Card/>);
@@ -17,8 +17,12 @@ const cards = () => {
   return(
 
     <ProjectDiv>
-    <div className="titleProjects"> PROJECTS <span>*</span></div>
-     {cards()}
+      <div className="titleProjects"> 
+          PROJECTS <span>*</span>
+      </div>
+      <div className="projectCards">
+          {cards()}
+      </div>
     </ProjectDiv>
 
     );

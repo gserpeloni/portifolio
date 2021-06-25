@@ -7,18 +7,15 @@ const Card: React.FC = () => {
 
     <CardDiv>
      <div className="projectName"> 
-       <a href=""> Link and name of project </a> 
+       <a href="https://gserpeloni.github.io/githubsearch/" target="_blank"> 
+        <img  src="https://github.githubassets.com/images/modules/site/social-cards/github-social.png" />
+        </a> 
      </div>
-     
-     
+          
      <div className="projectDescription"> 
-      Lorem ipsum dolor sit amet 
-      consectetur adipisicing elit. Similique libero 
-      nulla ipsam excepturi consectetur, voluptates 
-      voluptatibus dicta voluptatum alias veritatis dolore, 
-      eum quo! Alias quasi amet quas eveniet minima cupiditate.
+       Website frontend that consume REST API, to search informations about the users of Github
       </div>
-     <div>  </div>
+
     </CardDiv>
 
     )

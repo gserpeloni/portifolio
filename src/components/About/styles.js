@@ -2,12 +2,15 @@ import styled from 'styled-components';
 
 
 export const AboutDiv = styled.div`
-    height: 90vh;
+    
+    
+    height: auto;
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
     margin-bottom: 20px;
     color: white;
+    
 
     span{
         font-size: 1.8rem;
@@ -22,6 +25,7 @@ export const AboutDiv = styled.div`
     .plDiv{
         display: flex;
         flex-direction: row;
+        flex-flow: wrap;
         background-color: none;
         align-items: center;
         justify-content: center;
@@ -31,6 +35,22 @@ export const AboutDiv = styled.div`
     strong{
         color: goldenrod;
     }
-    
 
+    .languaguesDiv{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    ul{
+    list-style-type: none;
+    padding: 0;
+        li{
+            border-radius: 5%;
+            background-size: 20px;
+            :hover{
+                background-color: goldenrod;
+            }
+        }
+    }
+    
 `;

@@ -4,6 +4,11 @@ import Programming from '../Programming';
 
 const About: React.FC = () => {
 
+    const languages:string[] =   ['Typescript+', 'Phyton', 'Java', 'C'];
+    const backendSkills:string[] =   ['NodeJs+','SQL', 'MYSQL', 'AWS', 'DOCKER'];
+    const frontendSkills: string[] = ['ReactJS+', 'Angular', 'CSS'];
+    const othersSkills: string[] = []
+
 
     return (    
        <AboutDiv>
@@ -16,14 +21,21 @@ const About: React.FC = () => {
 
             <div className="plDiv" >
                 <Programming 
+                    title="Languages"
+                    skills={languages}
+                />
+                <Programming 
                     title="Backend"
+                    skills={backendSkills}
                 />
                 <Programming
                     title="Frontend"
+                    skills={frontendSkills}
                 />
-                <Programming
+                {/* <Programming
                     title='Skills'
-                />
+                    skills={othersSkills}
+                /> */}
             </div>
         </AboutDiv>
     );

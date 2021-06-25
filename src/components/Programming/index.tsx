@@ -3,11 +3,24 @@ import {LpBlocks} from './styles'
 
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-    title: string
+    title: string,
+    skills: string[]
 }
 
 
+
+
 const Programming: React.FC<InputProps>  = (props) => {
+
+const skills = props?.skills.map((item) => {
+    return(
+     <li> 
+        {item}
+     </li>
+    );
+});
+
+
     return(
         <LpBlocks>
             <div className="title"> 
@@ -15,10 +28,7 @@ const Programming: React.FC<InputProps>  = (props) => {
             </div>
             <div className="languaguesDiv">
                 <ul> 
-                    <li> L1 </li>
-                    <li> L2 </li>
-                    <li> L3 </li>
-                    <li> L4 </li>
+                    {skills}
                 </ul>
             </div>
        </LpBlocks>
