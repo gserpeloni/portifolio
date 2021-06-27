@@ -4,7 +4,7 @@ import {CardDiv} from './style'
 const Card: React.FC = () => {
 
   return(
-
+    
     <CardDiv>
      <div className="projectName"> 
        <a href="https://gserpeloni.github.io/githubsearch/" target="_blank"> 
@@ -15,7 +15,7 @@ const Card: React.FC = () => {
      <div className="projectDescription"> 
        Website frontend that consume REST API, to search informations about the users of Github
       </div>
-
+    <div className="divColor"></div>
     </CardDiv>
 
     )

@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 
 export const ProjectDiv = styled.div`
+background-color: whiteSmoke;
+
   height: 100vh;
 
   margin-top: 100px;
@@ -14,9 +16,9 @@ export const ProjectDiv = styled.div`
   flex-direction: column;
 
   .titleProjects{
-    text-align: left;
-    color: white;
-    font-size: 1.8rem;
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 80px;
     span{
@@ -27,7 +29,6 @@ export const ProjectDiv = styled.div`
   .projectCards{
     display: flex;
     flex-direction: row;
-    flex-flow: wrap;
   }
 
 `;

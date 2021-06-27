@@ -20,17 +20,10 @@ export const LpBlocks = styled.div`
     color: black;
     font-weight: bold;
     
-    border: 12px solid silver;
-
-    border-radius: 10px 10px 100px 100px;
+    border: 12px solid darkslategray;
+    border-radius: 20px 80px 40px 90px;
 
     .title{
-        margin-left: -10px;
-        margin-right: -10px;
-        margin-top: -10px;
-        background-color: black;
-        border: 8px  solid silver;
-        border-radius: 10px 10px 40px 40px;
 
         color: goldenrod;
         font-size: 1.8rem;
