@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 
 export const ProjectDiv = styled.div`
-background-color: whiteSmoke;
-
   height: 100vh;
 
   margin-top: 100px;
@@ -17,7 +15,7 @@ background-color: whiteSmoke;
 
   .titleProjects{
     text-align: center;
-    color: black;
+    color: white;
     font-size: 2.5rem;
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 80px;

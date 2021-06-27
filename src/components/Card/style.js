@@ -11,13 +11,14 @@ export const CardDiv = styled.div`
   height: 45vh;
   
   display: grid;
-  grid-template-rows: 1fr 0.2fr 0.1fr;
+  grid-template-rows: 1fr 0.2fr 20px;
   
   
   font-size: larger;
-  border: 2px solid black;
+  border: 4px solid black;
   border-radius: 20px;
 
+  box-shadow: -10px 5px 24px rgba(109, 100, 30, 0.45);
   
   .projectName{
     width: 100%;
@@ -27,7 +28,7 @@ export const CardDiv = styled.div`
     font-weight: bold;
 
     img{
-      border-radius: 20px 20px 0px ;
+      border-radius: 20px 20px 0px 0px ;
       height: 100%;
       width: 100%;
       object-fit: cover;
@@ -44,6 +45,7 @@ export const CardDiv = styled.div`
     padding-right: 10px;
     font-weight: bold;
     padding-bottom: 20px;
+    border-radius: 0px 0px 2px 2px;
     
   }
 
@@ -52,8 +54,10 @@ export const CardDiv = styled.div`
     height:100%;
     background-color: darkgreen;
     border-radius: 0px 0px 14px 14px;
+    color: white; 
+    font-weight: bold;
+    font-size: 1.0rem;
     
   }
-
 
 `;

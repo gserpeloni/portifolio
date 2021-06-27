@@ -8,7 +8,7 @@ export const QuemSouEuDiv = styled.div`
   align-items: left;
   justify-content: left;
   
-  height: 80vh;
+  height: 70vh;
   
   
   color: white;
@@ -21,7 +21,7 @@ export const QuemSouEuDiv = styled.div`
   img{
     padding-top: 150px;
     width: auto;
-    height: auto;
+    height: 60%;
     border-radius: 100%;
   };
 

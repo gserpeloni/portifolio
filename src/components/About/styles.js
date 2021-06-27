@@ -52,5 +52,7 @@ export const AboutDiv = styled.div`
             }
         }
     }
+
+    border-bottom: 10px solid rgba(0, 0, 0,10%);
     
 `;
