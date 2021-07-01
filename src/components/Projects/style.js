@@ -27,6 +27,9 @@ export const ProjectDiv = styled.div`
   .projectCards{
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
 `;

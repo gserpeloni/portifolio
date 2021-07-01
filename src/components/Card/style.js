@@ -2,23 +2,25 @@ import styled from 'styled-components';
 
 
 export const CardDiv = styled.div`
+  
+  position: relative;
 
-  margin: 0 auto;
+  margin-left: 60px;
   align-items: center;
   justify-items: center;
 
   width: 20%;
-  height: 45vh;
+  height: 60vh;
   
   display: grid;
   grid-template-rows: 1fr 0.2fr 20px;
   
   
   font-size: larger;
-  border: 4px solid black;
-  border-radius: 20px;
+  border: 6px solid rgba(10, 10, 0, 0.82);
+  border-radius: 10px;
 
-  box-shadow: -10px 5px 24px rgba(109, 100, 30, 0.45);
+  box-shadow: 0px 5px 10px rgba(110, 100, 40, 0.65);
   
   .projectName{
     width: 100%;
@@ -37,9 +39,10 @@ export const CardDiv = styled.div`
   }
 
   .projectDescription{
-    background-color: white;
+    background-color:  rgba(0, 0, 0, 0,001);
+    background-color: none;
     font-size: 1rem;
-    color: black;
+    color: white;
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
@@ -52,12 +55,17 @@ export const CardDiv = styled.div`
   .divColor{
     width: 100%;
     height:100%;
-    background-color: darkgreen;
-    border-radius: 0px 0px 14px 14px;
+    background-color: goldenrod;
+    border-radius: 0px 0px 8px 8px;
     color: white; 
     font-weight: bold;
     font-size: 1.0rem;
     
+  }
+  
+  :hover{
+    top:-20px;
+    box-shadow:0 2px 2px lightgray
   }
 
 `;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../Card';
 import {ProjectDiv} from './style.js'
-import { githubSearch } from '../Card/descriptions';
+import { githubSearch, otherProject, proffyFrontendNLW } from '../Card/descriptions';
 
 const Projects: React.FC = () => {
 
@@ -23,6 +23,8 @@ const Projects: React.FC = () => {
       </div>
       <div className="projectCards">
           <Card {...githubSearch} />
+          <Card {...otherProject} />
+          <Card {...proffyFrontendNLW} />
       </div>
     </ProjectDiv>
 

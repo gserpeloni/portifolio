@@ -5,7 +5,8 @@ const Header: React.FC = () => {
 
   return(
     <Navbar>
-      <div> <span>Gustavo Serpeloni</span></div>
+      <div className="nameDiv"> <span>Gustavo Serpeloni</span></div>
+      <div>  </div>
       <div> About Me </div>
       <div> Projects </div>
       <div> Contact </div>
