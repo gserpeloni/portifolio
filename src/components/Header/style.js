@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 
 export const Navbar = styled.div`
-
   display: grid;
   grid-template-columns: 1fr 0.6fr 0.6fr 0.2fr 0.2fr;
   grid-gap: 2px;

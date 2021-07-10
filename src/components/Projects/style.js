@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const ProjectDiv = styled.div`
-  height: 100vh;
+  height: auto: ;;
 
   margin-top: 100px;
   margin-bottom: 20px;

@@ -8,7 +8,8 @@ export const AboutDiv = styled.div`
     padding: 0;
     margin: 0;
     font-size: 1.5rem;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    padding-bottom: 80px;
     color: white;
     
 
@@ -16,9 +17,18 @@ export const AboutDiv = styled.div`
         font-size: 1.8rem;
         font-family: 'Press Start 2P', cursive;
     }
+
+
+
+    .descriptionsDiv{
+        display: flex;
+        flex: row;
+        flex-flow: wrap;
+    }
+
     .aboutmeDiv{
         margin-top: 10vh;
-        text-align: left;
+        text-align: justify;
         font-size: 1.9rem;
     }
 
@@ -26,10 +36,8 @@ export const AboutDiv = styled.div`
         display: flex;
         flex-direction: row;
         flex-flow: wrap;
-        background-color: none;
-        align-items: center;
-        justify-content: center;
         padding-bottom: 80px;
+        width: 100%;
     }
 
     strong{

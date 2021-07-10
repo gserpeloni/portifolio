@@ -4,27 +4,26 @@ import styled from 'styled-components';
 
 export const LpBlocks = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
-    height: 30vh;
-    width: 40vh;
+    height: auto;
+    width: 100%;
     
     margin-top: 10vh;
     margin-left: 60px;
 
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 0px;
 
     opacity: 78%;
-    background-color: white;
-    color: black;
+    color: white;
+    background-color: none;
     font-weight: bold;
     
-    border: 12px solid darkslategray;
-    border-radius: 20px 80px 40px 90px;
+    border-left: 2px solid goldenrod;
+    border-radius: 10px 10px 30px 30px;
 
     .title{
-
         color: goldenrod;
         font-size: 1.8rem;
         font-weight: bold;
@@ -35,5 +34,9 @@ export const LpBlocks = styled.div`
         transition-delay: 50ms;
     }
 
+    ul li{
+        display: inline;
+        margin-left: 20px;
+    }
 
 `;
