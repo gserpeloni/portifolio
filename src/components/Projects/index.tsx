@@ -1,19 +1,10 @@
 import React from 'react';
-import Card from '../Card';
+import Card from '../ProjectCard';
 import {ProjectDiv} from './style.js'
-import { githubSearch, otherProject, proffyFrontendNLW } from '../Card/descriptions';
+import { githubSearch, otherProject, proffyFrontendNLW } from '../ProjectCard/descriptions';
 
 const Projects: React.FC = () => {
 
-// const cards = () => {
-//   const size = 3;
-//   const cards = []
-//   for(let i = 0; i < size; i++){
-//       cards.push(<Card/>);
-//   }
-//   return cards;
-
-// }
 
   return(
 
@@ -23,8 +14,7 @@ const Projects: React.FC = () => {
       </div>
       <div className="projectCards">
           <Card {...githubSearch} />
-          <Card {...otherProject} />
-          <Card {...proffyFrontendNLW} />
+          {/* <Card {...proffyFrontendNLW} /> */}
       </div>
     </ProjectDiv>
 

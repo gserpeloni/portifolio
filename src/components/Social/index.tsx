@@ -6,15 +6,16 @@ const Social: React.FC = () => {
 
     return(
         <SocialDiv>
-            <a href="https://github.com/gserpeloni" >
-               <GithubWithCircle className="icons"/>
-            </a>
-
-            <a href="https://www.linkedin.com/in/gustavoserpeloni/">
-                <LinkedinWithCircle className="icons" />
-            </a>
-
-            <InstagramWithCircle className="icons"/>
+            <div className="divIcons">
+                <a href="https://github.com/gserpeloni" >
+                <GithubWithCircle className="icons"/>
+                </a>
+            </div>
+            <div className="divIcons">
+                <a href="https://www.linkedin.com/in/gustavoserpeloni/">
+                    <LinkedinWithCircle className="icons" />
+                </a>
+            </div>
         </SocialDiv>
     );
 };

@@ -2,30 +2,25 @@ import styled from 'styled-components';
 
 
 export const Navbar = styled.div`
+  width: 100%;
+  position: fixed; 
   display: grid;
-  grid-template-columns: 1fr 0.6fr 0.6fr 0.2fr 0.2fr;
-  grid-gap: 2px;
+  grid-template-columns: 0.4fr 0.2fr 0.1fr 0.1fr 0.1fr;
 
 
-  margin-top: 0px;
-  margin-left: -40px;
 
-
-  font-family: 'Press Start 2P', cursive;
+  font-family:'Courier New', Courier, monospace;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
 
   
-  height: 5vh;
-  width: 100vw;
+  height: 7vh;
   
-  
-
   z-index: 1;
-  position: fixed;
 
   background-color: #23272E;
+  opacity: 80%;
 
   align-items: center;
   
@@ -35,12 +30,11 @@ export const Navbar = styled.div`
   };
 
   span{
-    font-size: 1.0rem;
+    font-size: 1.6rem;
   }
 
   div{
     text-align: right;
-    padding-right: 80px;
   }
 
   .nameDiv{

@@ -2,34 +2,43 @@ import styled from 'styled-components';
 
 
 export const ProjectDiv = styled.div`
-  height: auto: ;;
+  height: auto;
+  margin: 0 auto;
 
-  margin-top: 100px;
-  margin-bottom: 20px;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 
   display: flex;
   flex-direction: column;
 
   .titleProjects{
+    border-right: 10px solid goldenrod;
+    width: 90%;
     text-align: center;
-    color: white;
-    font-size: 2.5rem;
-    font-family: 'Press Start 2P', cursive;
-    margin-bottom: 80px;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0 auto;
     span{
       color: goldenrod;
     }
+    margin-bottom: 10vh;
   }
 
   .projectCards{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-flow: wrap;
-    align-items: center;
-    justify-content: center;
+    background-color: none;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    height: auto;
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
+
 
 `;

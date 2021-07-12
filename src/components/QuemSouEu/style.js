@@ -5,21 +5,24 @@ export const QuemSouEuDiv = styled.div`
   opacity: 90%;
 
   height: 70vh;
-  color: white;
+  color: black;
   z-index: 0;
 
   margin-bottom: 20px;
-  margin-left: 20px;
 
   .imgDiv{
-    width: 40%;
+    margin-left: 10vh;
+    width: 30%;
     height: auto;
+
+      img{
+      padding-top: 80px;
+      width: 100%;
+      height: 80%;
+      border-radius: 100%;
+    };
   }
-  img{
-    padding-top: 80px;
-    width: 100%;
-    height: 80%;
-    border-radius: 80%;
-  };
+
+
   
 `;

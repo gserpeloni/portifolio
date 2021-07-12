@@ -3,7 +3,9 @@ import {FooterDiv} from './style';
 const Footer: React.FC = () => {
 
   return(
-    <FooterDiv> Footer Div </FooterDiv>
+    <FooterDiv> 
+      © Gustavo Serpeloni 2021  
+    </FooterDiv>
   );
 
 }

@@ -12,7 +12,6 @@ import Social from '../components/Social';
   return (
     <div className="App">
        <Header></Header>
-       <Banner></Banner>
        <QuemSouEu></QuemSouEu>
        <Social></Social>
        <About></About>
