@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <Navbar>
       <div className="nameDiv"> <span>Gustavo Serpeloni</span></div>
       <div>  </div>
-      <div> About Me </div>
+      <div> About </div>
       <div> Projects </div>
       <div> Contact </div>
     </Navbar>

@@ -1,7 +1,7 @@
 
 import { InputHTMLAttributes } from 'react';
 import {CardDiv} from './style'
-
+import {Javascript, Html5} from '@styled-icons/boxicons-logos';
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
   projectName: string;
@@ -24,9 +24,10 @@ const ProjectCard: React.FC<InputProps> = (props) => {
          <span className="projectName"> {props?.projectName} </span>
          <div className="projectDescription"> {props.description} </div>
          <div className="madeWithDiv"> 
-           Made With 
+           <div>Made With</div> 
            <ul> 
-             <li>icons</li>
+               <li><Javascript/></li>
+               <li><Html5/></li>
            </ul>
         </div>
       </div>

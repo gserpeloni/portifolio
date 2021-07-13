@@ -4,8 +4,10 @@ import styled from 'styled-components';
 export const Navbar = styled.div`
   width: 100%;
   position: fixed; 
-  display: grid;
-  grid-template-columns: 0.4fr 0.2fr 0.1fr 0.1fr 0.1fr;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+
 
 
 
@@ -23,7 +25,6 @@ export const Navbar = styled.div`
   opacity: 80%;
 
   align-items: center;
-  
 
   div:hover{
     color: goldenrod;
@@ -35,9 +36,13 @@ export const Navbar = styled.div`
 
   div{
     text-align: right;
+    padding-left: 10px;
+    padding-right: 10px;
+
   }
 
   .nameDiv{
+    flex: 1 40%;
     text-align: left;
     padding-left: 80px;
   }
