@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../components/Banner';
 import Body from '../components/Projects';
 import Footer from '../components/Footer';
 import Header from '../components/Header';

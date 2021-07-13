@@ -23,6 +23,19 @@ export const QuemSouEuDiv = styled.div`
     };
   }
 
+  @media(max-width: 1040px){
+    align-items: center;
+    justify-content: center;
+    .imgDiv{
+      width: 60%;
+      img{
+        padding-top: 60px;
+        width: 80%;
+        height: 100%;
+        border-radius: 400%;
+      };
+  }
+  }
 
   
 `;

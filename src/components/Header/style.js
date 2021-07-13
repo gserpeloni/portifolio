@@ -48,4 +48,14 @@ export const Navbar = styled.div`
   }
 
 
+  @media(max-width: 650px){
+    font-size: 1.0rem;
+
+    .nameDiv{
+       font-size: 0.2rem;
+       flex: 1 0%;
+       padding: 0;
+    }
+  }
+
 `;

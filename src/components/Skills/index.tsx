@@ -1,4 +1,3 @@
-import { InputHTMLAttributes, PropsWithChildren } from 'react';
 import SkillCard from '../SkillCard';
 import {SkillGrid} from './styles'
 import {skillsData} from './skills'

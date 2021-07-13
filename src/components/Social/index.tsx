@@ -1,5 +1,5 @@
 import {SocialDiv} from './styles.js';
-import  {LinkedinWithCircle , InstagramWithCircle, GithubWithCircle} from "@styled-icons/entypo-social";
+import  {LinkedinWithCircle ,GithubWithCircle} from "@styled-icons/entypo-social";
 
 
 const Social: React.FC = () => {

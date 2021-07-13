@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../ProjectCard';
 import {ProjectDiv} from './style.js'
-import { githubSearch, otherProject, proffyFrontendNLW } from '../ProjectCard/descriptions';
+import { githubSearch} from '../ProjectCard/descriptions';
 
 const Projects: React.FC = () => {
 
