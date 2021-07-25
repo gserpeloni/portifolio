@@ -15,7 +15,6 @@ const Social: React.FC = () => {
             <div className="divIcons">
                 <a href="https://www.linkedin.com/in/gustavoserpeloni/">
                 <LinkedinWithCircle className="icons" />
-
                 </a>
             </div>
         </SocialDiv>

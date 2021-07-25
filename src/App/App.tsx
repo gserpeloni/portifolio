@@ -5,14 +5,12 @@ import Header from '../components/Header';
 import QuemSouEu from '../components/QuemSouEu';
 import About from '../components/About';
 import './App.css';
-import Social from '../components/Social';
 
  const App: React.FC = () => {
   return (
     <div className="App">
        <Header></Header>
        <QuemSouEu></QuemSouEu>
-       <Social></Social>
        <About></About>
        <Body></Body>
        <Footer></Footer>
