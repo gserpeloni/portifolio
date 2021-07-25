@@ -17,16 +17,16 @@ const ProjectCard: React.FC<InputProps> = (props) => {
     <CardDiv>
       <div className="divUm">
         <a>
-          <img src={props?.imageSrc}/>  
-        </a>  
+          <img src={props?.imageSrc}/>
+        </a>
       </div>
       <div className="divDois">
          <span className="projectName"> {props?.projectName} </span>
          <div className="projectDescription"> {props.description} </div>
-         <div className="madeWithDiv"> 
-           <div>Made With</div> 
-           <ul> 
-               <li><Javascript/></li>
+         <div className="madeWithDiv">
+           <div>Made With</div>
+           <ul>
+              <li><Javascript/></li>
                <li><Html5/></li>
            </ul>
         </div>

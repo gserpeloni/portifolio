@@ -9,7 +9,6 @@ const Header: React.FC = () => {
       <div>  </div>
       <div> About </div>
       <div> Projects </div>
-      <div> Contact </div>
     </Navbar>
   );
 

@@ -13,12 +13,12 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
 
 const SkillCard: React.FC<InputProps> = (props) => {
 
-    
+
     return(
         <SkillCards>
             <li>
                 <div>
-                    <img src={props?.imgSrc} />
+                    <img src={props?.imgSrc} alt=""/>
                 </div>
                 <div> {props?.skillName} </div>
             </li>

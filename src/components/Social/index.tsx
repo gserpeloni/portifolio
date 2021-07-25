@@ -2,6 +2,7 @@ import {SocialDiv} from './styles.js';
 import  {LinkedinWithCircle ,GithubWithCircle} from "@styled-icons/entypo-social";
 
 
+
 const Social: React.FC = () => {
 
     return(
@@ -13,7 +14,8 @@ const Social: React.FC = () => {
             </div>
             <div className="divIcons">
                 <a href="https://www.linkedin.com/in/gustavoserpeloni/">
-                    <LinkedinWithCircle className="icons" />
+                <LinkedinWithCircle className="icons" />
+
                 </a>
             </div>
         </SocialDiv>

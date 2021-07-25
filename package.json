@@ -2,7 +2,7 @@
   "name": "portifolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://gserpeloni.github.io/portifolio/",
+  "homepage": "https://www.gserpeloni.dev",
   "scripts": {
     "nodemon": "npm start",
     "start": "react-scripts start",
