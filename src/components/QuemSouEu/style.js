@@ -19,7 +19,7 @@ export const QuemSouEuDiv = styled.div`
       .imgDiv{
         flex: 2 auto;
           img{
-            width: 100%;
+            width: 80%;
             height: 90%;
             padding-top: 20px;
             border-radius: 100%;
