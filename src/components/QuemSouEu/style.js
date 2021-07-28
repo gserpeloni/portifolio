@@ -71,7 +71,11 @@ export const QuemSouEuDiv = styled.div`
               border-radius: 100%;
           };
         }
-  }
+        .descriptionDiv{
+          display: none;
+        }
+      }
+    
 }
 
 `;
