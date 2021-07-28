@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 export const QuemSouEuDiv = styled.div`
-  width: auto;
-  background-color: whitesmoke;
-  height: auto;
   color: black;
 
   margin-bottom: 20px;
@@ -15,24 +12,24 @@ export const QuemSouEuDiv = styled.div`
 
   .Banner{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-flow: wrap;
+
 
       .imgDiv{
         flex: 2 auto;
-        width: auto;
-        height: auto;
-
           img{
+            width: 100%;
+            height: 90%;
             padding-top: 20px;
-            width: auto;
-            height: auto;
             border-radius: 100%;
         };
+        margin: 0 auto;
+        padding: 20px;
       }
 
       .descriptionDiv{
-        flex: 2 60%;
+        flex: 2 40%;
         display: flex;
         flex-direction: column;
         padding-top: 100px;
@@ -41,21 +38,18 @@ export const QuemSouEuDiv = styled.div`
 
         .title{
           font-size: 2.4rem;
-          text-align: left;
+          text-align: center;
           font-weight: bold;
           margin-bottom: 5vh;
         }
 
         .description{
-          width: 80%;
           font-size: 1.8rem;
-          text-align: left;
+          text-align: justify;
           padding: 0px 40px 0px 20px;
           word-spacing: 0.2em;
           line-height: 1.2;
         }
-
-
       }
 
       margin-bottom: 15vh;
@@ -64,23 +58,5 @@ export const QuemSouEuDiv = styled.div`
   strong{
     color: goldenrod;
   }
-
-
-
-
-  @media(max-width: 1040px){
-    align-items: center;
-    justify-content: center;
-    .imgDiv{
-      width: 60%;
-      img{
-        padding-top: 60px;
-        width: 80%;
-        height: 100%;
-        border-radius: 400%;
-      };
-  }
-  }
-
 
 `;
