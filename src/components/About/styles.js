@@ -36,7 +36,7 @@ export const AboutDiv = styled.div`
     .aboutmeDiv{
         width: 90%;
         margin: 0 auto;
-        text-align: justify;
+        text-align: left;
         font-size: 1.8rem;
         word-spacing: 0.2em;
         line-height: 1.3;
@@ -61,6 +61,15 @@ export const AboutDiv = styled.div`
     }
 
 
+  @media (max-width: 650px){
 
+    .divTitle{
+       font-size:1.6rem;
+    }
+
+    .aboutmeDiv{
+      font-size: 1.2rem;
+    }
+  }
     
 `;

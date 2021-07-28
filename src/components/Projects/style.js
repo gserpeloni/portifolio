@@ -31,15 +31,25 @@ export const ProjectDiv = styled.div`
     flex-direction: column;
     flex-flow: wrap;
     background-color: none;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
     border-radius: 20px;
     height: auto;
-
 
     padding-top: 20px;
     padding-bottom: 20px;
   }
 
+
+  @media (max-width: 650px){
+
+    .titleProjects{
+      font-size:1.6rem;
+    }
+
+    .projectCards{
+      font-size: 1.0rem;
+    }
+}
 
 `;
