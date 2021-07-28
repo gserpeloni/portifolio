@@ -29,17 +29,18 @@ export const AboutDiv = styled.div`
         flex-direction: column;
         flex-flow: wrap;
         margin-top: 10vh;
-        font-family:'Courier New', Courier, monospace;
+        font-family: 'Montserrat Alternates', sans-serif;
         
     }
 
     .aboutmeDiv{
         width: 90%;
         margin: 0 auto;
-        text-align: left;
-        font-size: 1.6rem;
-        word-spacing: 0.3em;
-        line-height: 1.2;
+        text-align: justify;
+        font-size: 1.8rem;
+        word-spacing: 0.2em;
+        line-height: 1.3;
+        font-weight: bold;
     }
 
     .plDiv{
