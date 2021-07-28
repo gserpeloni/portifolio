@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const QuemSouEuDiv = styled.div`
+  background-color: whitesmoke;
   color: black;
 
   margin-bottom: 20px;

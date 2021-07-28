@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const ProjectDiv = styled.div`
+  background-color: whitesmoke;
   height: auto;
   margin: 0 auto;
 

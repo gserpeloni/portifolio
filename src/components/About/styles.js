@@ -40,7 +40,9 @@ export const AboutDiv = styled.div`
         font-size: 1.8rem;
         word-spacing: 0.2em;
         line-height: 1.3;
-        font-weight: bold;
+        p{
+            font-weight: bold
+        };
     }
 
     .plDiv{

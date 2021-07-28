@@ -16,7 +16,7 @@ const ProjectCard: React.FC<InputProps> = (props) => {
   return(
     <CardDiv>
       <div className="divUm">
-        <a>
+        <a href={props?.link} target="_blank">
           <img src={props?.imageSrc}/>
         </a>
       </div>
