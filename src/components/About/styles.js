@@ -36,8 +36,10 @@ export const AboutDiv = styled.div`
     .aboutmeDiv{
         width: 90%;
         margin: 0 auto;
-        text-align: justify;
-        font-size: 1.4rem;
+        text-align: left;
+        font-size: 1.6rem;
+        word-spacing: 0.3em;
+        line-height: 1.2;
     }
 
     .plDiv{

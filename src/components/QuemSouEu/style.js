@@ -19,36 +19,34 @@ export const QuemSouEuDiv = styled.div`
       .imgDiv{
         flex: 2 auto;
           img{
-            width: 80%;
-            height: 90%;
             padding-top: 20px;
             border-radius: 100%;
         };
-        margin: 0 auto;
-        padding: 20px;
       }
 
       .descriptionDiv{
-        flex: 2 40%;
+        flex: 2 30%;
         display: flex;
         flex-direction: column;
         padding-top: 100px;
         margin: 0 auto;
         align-items: center;
+        font-weight: bold;
 
         .title{
-          font-size: 2.4rem;
+          font-size: 5em;
           text-align: center;
-          font-weight: bold;
           margin-bottom: 5vh;
+          font-family: Arial, Helvetica, sans-serif, Times, serif, sans-serif;
         }
 
         .description{
-          font-size: 1.8rem;
-          text-align: justify;
+          font-size: 3.5em;
+          text-align: left;
           padding: 0px 40px 0px 20px;
-          word-spacing: 0.2em;
-          line-height: 1.2;
+          word-spacing: 0.02em;
+          line-height: 1.5;
+          font-family: 'Montserrat Alternates', sans-serif;
         }
       }
 
@@ -58,5 +56,21 @@ export const QuemSouEuDiv = styled.div`
   strong{
     color: goldenrod;
   }
+
+
+  @media (max-width: 520px){
+    .Banner{
+
+      .imgDiv{
+          flex: 2 auto;
+            img{
+              width: 80%;
+              height: 90%;
+              padding-top: 20px;
+              border-radius: 100%;
+          };
+        }
+  }
+}
 
 `;
