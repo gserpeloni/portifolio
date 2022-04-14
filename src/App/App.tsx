@@ -1,5 +1,5 @@
 import React from 'react';
-import Body from '../components/Projects';
+import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import QuemSouEu from '../components/QuemSouEu';
@@ -12,7 +12,7 @@ import './App.css';
        <Header></Header>
        <QuemSouEu></QuemSouEu>
        <About></About>
-       <Body></Body>
+       <Projects></Projects>
        <Footer></Footer>
     </div>
   );
