@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
-
-
 export const SkillGrid = styled.div`
-    
     display: flex;
     flex-direction: column;
     border: 4px solid whitesmoke;
@@ -36,7 +33,4 @@ export const SkillGrid = styled.div`
         flex-direction: row;
         flex-flow: wrap;
     }
-
-
-
 `;

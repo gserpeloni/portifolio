@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-
 export const AboutDiv = styled.div`
-    
     height: auto;
     padding: 0;
     font-size: 1.5rem;
@@ -11,7 +9,7 @@ export const AboutDiv = styled.div`
     color: black;
     margin: 0 auto;
     
-    
+    border: 1px solid black;
 
     .divTitle{
         width: 90%;
@@ -22,15 +20,12 @@ export const AboutDiv = styled.div`
         border-left: 10px solid goldenrod;
     }
 
-
-
     .descriptionsDiv{
         display: flex;
         flex-direction: column;
         flex-flow: wrap;
         margin-top: 10vh;
         font-family: 'Montserrat Alternates', sans-serif;
-        
     }
 
     .aboutmeDiv{
@@ -60,7 +55,6 @@ export const AboutDiv = styled.div`
         margin: 0 auto;
     }
 
-
   @media (max-width: 650px){
 
     .divTitle{
@@ -71,5 +65,4 @@ export const AboutDiv = styled.div`
       font-size: 1.2rem;
     }
   }
-    
 `;

@@ -1,33 +1,25 @@
 import SkillCard from '../SkillCard';
-import {SkillGrid} from './styles'
-import {skillsData} from './skills'
-
-
-
-
+import { SkillGrid } from './styles'
+import { skillsData } from './skills'
 
 const Skills: React.FC = (props) => {
-
-const listOfSkills = skillsData.map( (item)=>{
-        return(
-            <SkillCard 
-                imgSrc = {item?.imgSrc}
-                skillName= {item?.skillName}
-             />
+    const listOfSkills = skillsData.map((item) => {
+        return (
+            <SkillCard
+                imgSrc={item?.imgSrc}
+                skillName={item?.skillName}
+            />
         );
-    })    
+    })
 
-
-    return(
+    return (
         <SkillGrid>
             <div className="titleDiv">SKILLS</div>
             <ul>
                 {listOfSkills}
             </ul>
-       </SkillGrid>
+        </SkillGrid>
     );
-
 };
-
 
 export default Skills;
