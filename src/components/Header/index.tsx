@@ -2,26 +2,24 @@ import Social from "../Social";
 import { HeaderDiv } from "./style.js";
 
 const Header: React.FC = () => {
+  const image = "https://avatars.githubusercontent.com/u/30409723?v=4";
+
   return (
     <HeaderDiv>
-      <div className="Banner">
-        <div className="imgDiv">
-          <img
-            src="https://ca.slack-edge.com/TP47N1UB0-U01R5T13Q4D-435422d94e89-512"
-            alt="me"
-          />
-        </div>
-        <div className="descriptionDiv">
-          <div className="title"> Welcome to my portifolio, </div>
-          <div className="description">
-            I’m Gustavo Serpeloni a <strong>Software Developer</strong>,
-            that loves nature, adventure, technology and
-            passionate to innovation and creativity thinking.
-          </div>
+
+      <div className="imageDiv">
+        <img src={image} />
+      </div>
+
+      <div className="descriptionDiv">
+        <h1> Welcome to my portifolio, </h1>
+        <div className="description">
+          I’m Gustavo Serpeloni a <strong>Software Developer</strong>,
+          that loves nature, adventure, technology and
+          passionate to innovation and creativity thinking.
         </div>
       </div>
-      <Social />
-    </HeaderDiv>
+    </HeaderDiv >
   );
 };
 
