@@ -1,18 +1,19 @@
 
-import {Navbar} from './style.js';
+import { Navbar } from './style.js';
 
 const Header: React.FC = () => {
 
-  return(
+  return (
     <Navbar>
-      <div className="nameDiv"> <span>Gustavo Serpeloni</span></div>
-      <div>  </div>
-      <div> About </div>
-      <div> Projects </div>
+      <div className="logo">
+        <h2>Gustavo Serpeloni</h2>
+      </div>
+      <div className="menu">
+        <div> About </div>
+        <div>  Projects </div>
+      </div>
     </Navbar>
   );
-
-
 }
 
 export default Header;
