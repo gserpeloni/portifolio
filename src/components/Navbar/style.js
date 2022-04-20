@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const NavbarDiv = styled.div`
   /* z-index: 1; */
   display: flex;
-  height: 7vh;
+  flex-wrap: wrap;
+  height: auto;
   font-weight: bold;
 
   align-items: center;
@@ -13,6 +14,7 @@ export const NavbarDiv = styled.div`
 
   .menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     div{
