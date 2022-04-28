@@ -3,8 +3,8 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  background-color: white;
-  color: #090921ff;
+  background-color: #282836;
+  color: whitesmoke;
 }
 
 html {
@@ -35,11 +35,16 @@ code {
 @media(max-width: 700px) {
   html {
     font-size: 40%;
-  }  
+  }
 }
 
 @media(max-width: 200px) {
   html {
     font-size: 15%;
-  }  
+  }
 }
+
+/* color-pallet: {
+  #282836,
+  #090921ff
+} */
