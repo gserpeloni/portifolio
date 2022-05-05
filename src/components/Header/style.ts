@@ -6,7 +6,7 @@ export const HeaderDiv = styled.div`
   justify-content: space-between;
   margin-top: 20px;
   font-family: 'Montserrat Alternates', sans-serif;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 
   .imageDiv{
     flex: 1 50%;
@@ -42,18 +42,26 @@ export const HeaderDiv = styled.div`
   }
 
   .description{
-    height: 150px ;
+    height: auto ;
     border: 1px solid rgba(20,20,20, 0.6);
     border-radius: 5px;
     box-shadow: 0 8px 10px rgb(0, 0, 0, 0.5);
     padding: 5px;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
-    font-size: 3rem;
+    font-size: 4.2rem;
+    margin-bottom: 30px;
       strong{
         color: #C4ff00;
       }
    }
+  }
+  
+
+  @media (max-width: 550px){
+    .imageDiv{
+      display: none;
+    }
   }
   
 `;
