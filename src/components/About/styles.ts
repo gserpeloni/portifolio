@@ -3,19 +3,17 @@ import styled from 'styled-components';
 export const AboutDiv = styled.div`
     height: auto;
     padding: 0;
-    font-size: 1.5rem;
-    margin-bottom: 100px;
     padding-bottom: 80px;
-    color: black;
     margin: 0 auto;
+    border: 1px solid rgba(20,20,20, 0.6);
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgb(0, 0, 0, 0.5);
+    margin-bottom: 20%;
     
-    border: 1px solid black;
-
     .divTitle{
         width: 90%;
-        font-size: 3rem;
+        font-size: 6rem;
         font-weight: bold;
-        margin: 0 auto;
         text-align: center;
         border-left: 10px solid goldenrod;
     }
@@ -24,7 +22,7 @@ export const AboutDiv = styled.div`
         display: flex;
         flex-direction: column;
         flex-flow: wrap;
-        margin-top: 10vh;
+        margin-top: 5vh;
         font-family: 'Montserrat Alternates', sans-serif;
     }
 
@@ -32,7 +30,7 @@ export const AboutDiv = styled.div`
         width: 90%;
         margin: 0 auto;
         text-align: left;
-        font-size: 1.8rem;
+        font-size: 2.8rem;
         word-spacing: 0.2em;
         line-height: 1.3;
         p{
