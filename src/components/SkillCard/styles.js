@@ -1,43 +1,38 @@
 import styled from 'styled-components';
 
-
-
 export const SkillCards = styled.div`
 
     position: relative;
-    width: 100px;
+    width: auto;
+    margin: 8px;  
+    padding: 5px;
+    background-color: white;
 
-    background-color: blacksmoke;
-    border-radius: 10px ;
-    border: 1px solid silver;
     box-shadow: 0px 0px 7px 1px rgba(20, 20, 20, 30%);
 
     list-style: none;
-    font-size: 0.8rem;
-
-
-    align-items: center;
-
-    margin: 8px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    font-size: 1.5rem;
     
     
-    li{
-
-        margin: 0 auto;
-        color: black;
-        font-weight: bold;
-
+    li{ 
+        div{
+            color: black;
+            background-color: white;
+            align-items: center;
+            img{
+                background-color: transparent;
+            }
+        }
     }
 
     :hover{
        top: -5px;   
-       background-color: goldenrod; 
-
-       li{
-           color: white;
+       background-color: #C4ff00; 
+       div{
+            background-color: #C4ff00; 
+            font-weight: bolder;
        }
+
     }
 
 

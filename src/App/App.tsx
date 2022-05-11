@@ -4,18 +4,18 @@ import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Header from '../components/Header';
 import About from '../components/About';
-import './App.css';
+import {AppDiv} from './style';
 
 
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <AppDiv>
       <Navbar />
       <Header />
-      {/* <About></About>
-       <Projects></Projects>*/}
+      <About/>
+      {/*  <Projects></Projects>*/}
       <Footer />
-    </div>
+    </AppDiv>
   );
 }
 

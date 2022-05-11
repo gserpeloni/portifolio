@@ -4,12 +4,14 @@ export const SkillGrid = styled.div`
     display: flex;
     flex-direction: column;
     border: 4px solid whitesmoke;
-    background-color: rgba(255, 255, 255, 88%);
+
+    background-color: white;
     box-shadow: 0px 0px 7px 1px rgba(20, 20, 20, 30%);
     border-radius: 20px;
     color: black;
     
     .titleDiv{
+    background-color: white;
         text-align: left;
         font-family:'Courier New', Courier, monospace;
         font-weight: bold;
@@ -27,7 +29,7 @@ export const SkillGrid = styled.div`
     padding-top: 20px;
 
     ul{
-        margin: 0 auto;
+        background-color: white;
 
         display: flex;
         flex-direction: row;
