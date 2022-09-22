@@ -28,10 +28,12 @@ export const AboutDiv = styled.div`
         width: 90%;
         margin: 0 auto;
         text-align: left;
-        font-size: 2.8rem;
         word-spacing: 0.2em;
         line-height: 1.3;
+        font-size: 3.5rem;
+
         p{
+            text-align: justify;
             font-weight: bold
         };
     }

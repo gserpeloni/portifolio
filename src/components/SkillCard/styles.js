@@ -2,19 +2,23 @@ import styled from 'styled-components';
 
 export const SkillCards = styled.div`
     position: relative;
-    width: auto;
-    margin: 8px;  
+    margin-left: 8px;  
     padding: 5px;
+    background-color: whitesmoke;
     box-shadow: 0px 0px 7px 1px rgba(20, 20, 20, 30%);
-
+    border-radius: 10px;
     list-style: none;
     font-size: 1.5rem;
-    
+    font-size: 20px;
+    color: black;
+
     
     li{ 
+        width: 110px;
         div{
-            color: white;
-            align-items: center;
+            background-color: whitesmoke;
+            color: black;
+
             img{
                 background-color: transparent;
             }
@@ -23,11 +27,10 @@ export const SkillCards = styled.div`
 
     :hover{
        top: -5px;   
-       background-color: black; 
+       border-bottom: 3px solid goldenrod ;
        div{
         color: black;
-            background-color: white; 
-            font-weight: bolder;
+        font-weight: bolder;
        }
 
     }

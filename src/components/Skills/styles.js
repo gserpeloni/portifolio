@@ -16,9 +16,7 @@ export const SkillGrid = styled.div`
     }
 
     
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-top: 100px;
 
     ul{
         display: flex;
