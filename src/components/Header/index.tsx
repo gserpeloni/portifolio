@@ -26,14 +26,3 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-
-{/* <div className="imageDiv">
-<img src={image} />
-</div>
-
-<div className="descriptionDiv">
-
-<div className="description">
-
-</div>
-</div> */}
