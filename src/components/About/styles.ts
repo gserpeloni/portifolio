@@ -5,8 +5,6 @@ export const AboutDiv = styled.div`
     padding: 0;
     padding-bottom: 80px;
     margin: 0 auto;
-    border: 1px solid rgba(20,20,20, 0.6);
-    border-radius: 5px;
     box-shadow: 0 8px 10px rgb(0, 0, 0, 0.5);
     margin-bottom: 20%;
     
