@@ -1,20 +1,21 @@
 import React from 'react';
-import Body from '../components/Projects';
+import Projects from '../components/Projects';
 import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 import Header from '../components/Header';
-import QuemSouEu from '../components/QuemSouEu';
 import About from '../components/About';
-import './App.css';
+import {AppDiv} from './style';
 
- const App: React.FC = () => {
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-       <Header></Header>
-       <QuemSouEu></QuemSouEu>
-       <About></About>
-       <Body></Body>
-       <Footer></Footer>
-    </div>
+    <AppDiv>
+      <Navbar />
+      <Header />
+      <About/>
+      {/*  <Projects></Projects>*/}
+      <Footer />
+    </AppDiv>
   );
 }
 

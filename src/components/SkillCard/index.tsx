@@ -1,19 +1,13 @@
 import { InputHTMLAttributes } from 'react';
 import {SkillCards} from './styles'
 
-
-
 interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
     imgSrc: string;
     skillName: string;
 }
 
 
-
-
 const SkillCard: React.FC<InputProps> = (props) => {
-
-
     return(
         <SkillCards>
             <li>

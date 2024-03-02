@@ -1,31 +1,21 @@
 import styled from 'styled-components';
 
 export const SocialDiv = styled.div`
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-
-    padding-bottom: 20px;
-    padding-top: 20px;
-
     display: flex;
     flex-direction: row;
-
+    justify-content: end;
+    padding-right: 10px;
 
     .divIcons{
         height: auto;
-        width: 10vh;
+        width: 50px;
         margin-left: 20px;
     }
 
     .icons{
-        margin: 0 auto;
-        height: auto;
-        width: auto;
-        fill: black;
+        fill: white;
         :hover{
-            fill: goldenrod;
+            fill: #C4ff00;
             opacity: 0.96;
         }
 

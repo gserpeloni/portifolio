@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 
 export const ProjectDiv = styled.div`
-  background-color: whitesmoke;
   height: auto;
   margin: 0 auto;
 
-  margin-top: 20vh;
+  margin-top: 2vh;
   margin-bottom: 20vh;
 
   display: flex;

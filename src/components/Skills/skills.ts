@@ -1,8 +1,4 @@
-
-
-
 export const skillsData = [
-    
     {
         imgSrc: "https://img.icons8.com/color/48/000000/typescript.png",
         skillName: "Typescript"
@@ -14,7 +10,7 @@ export const skillsData = [
     {
         imgSrc: "https://img.icons8.com/color/48/000000/nodejs.png",
         skillName: "Nodejs"
-    },    
+    },
     {
         imgSrc: "https://img.icons8.com/color/48/000000/python--v2.png",
         skillName: "Phyton"

@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 
 export const CardDiv = styled.div`
-  width: 70%;
-  height: auto;
+  width: 40%;
 
   margin: 0 auto;
   background-color: white;
@@ -19,11 +18,8 @@ export const CardDiv = styled.div`
   justify-content: center;
 
   .divUm{
-    
-    height: auto;
-    width: auto;
     padding-bottom: 20px;
-    flex:1 40% ;
+    flex:1 50% ;
     padding: 20px;
      img{
       border: 1px solid silver;
